@@ -1,0 +1,27 @@
+<html>
+<style>
+.rainbow-text {
+  font-size: 150px;
+  font-weight: bold;
+  background: linear-gradient(
+    to right, 
+    red, orange, yellow, green, blue, indigo, violet
+  );
+  background-size: 200% auto; /* アニメーション用に幅を広く */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow 3s linear infinite;
+}
+
+@keyframes rainbow {
+  to {
+    background-position: 200% center;
+  }
+}
+</style>
+<br>
+<br>
+<br>
+<h1 class="rainbow-text">こっちみんなカス</h1>
+</html>
